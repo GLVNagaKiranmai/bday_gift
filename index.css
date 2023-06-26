@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    background:linear-gradient(lightseagreen, #ef80c9);
+    text-align: center;
+    color:#ffffff;
+}
+
+#photo{
+    width:200px;
+    height:180px;
+    border-radius: 100%;
+    border:5px solid #ef80c9;
+}
+
+h1,h2,h3,h4,p{
+    text-shadow: 0px 0px 5px black;
+}
+
+p a{
+    text-shadow: 0px 0px 0px black;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bday-age{
+    background-color: #ef80c9;
+    padding:5px 10px;
+    border-radius: 3px;
+    margin:10px 0 10px 0;
+}
+
+#bday-date{
+    background-color: #ef80c9;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin:0;
+}
+
+.gift-section{
+    margin-top: 50px;
+}
+
+.gift-data{
+    margin-bottom: 10px;
+}
+
+.gift-box{
+    width:300px;
+    height: 300px;
+    border:4px solid #ffffff;
+    border-radius: 5px;
+    /* background-image: url(https://tse3.explicit.bing.net/th?id=OIP.reB7qrtLSUEoiwqS7jJJWgHaHa&pid=Api&P=0&h=180); */
+    background-image: url("images/gift_box.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0 auto;
+}
+
+#first-gif:hover{
+    /* background-image: url("https://media.giphy.com/media/5OqXb948EBkyUcnwHt/giphy.gif"); */
+    background-image: url("images/bestie.gif");
+}
+
+#second-gif:hover{
+    /* background-image: url("https://media.giphy.com/media/AGGz7y0rCYxdS/giphy.gif") */
+        background-image: url("images/exicted.gif");
+}
+
+#genious:hover{
+    /* background-image: url("https://media.giphy.com/media/SPD6FDYHONKnCRD1lB/giphy.gif"); */
+        background-image: url("images/genious.gif");
+}
+
+#myself:hover{
+    /* background-image: url("https://media.giphy.com/media/Zb0iANs1ltiZyqhLYV/giphy.gif"); */
+        background-image: url("images/myself.gif");
+}
+
+#cheers{
+    width:200px;
+    height: 200px;
+    /* background-image: url("https://i0.wp.com/www.papertraildesign.com/wp-content/uploads/2017/06/Winky.png");
+    background-size:200px; */
+        background-image: url("images/wink_emoji.jpeg");
+    margin-bottom: 20px;
+}
+#cheers:hover{
+    /* background-image: url("https://media.giphy.com/media/3o85xjSETVG3OpPyx2/giphy.gif"); */
+        background-image: url("images/cheers.gif");
+}
+.hover-data{
+    margin-top:0;
+}
+
+a{
+    font-style: italic;
+}
+
+p{
+    margin:5px 0px 10px 0px;
+}
